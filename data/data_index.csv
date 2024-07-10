@@ -1,1 +1,4 @@
 path,name,metadata,description
+raw/private/osm_roads.graphml,osm_roads.graphml,--,NetworkX graph-format of road network derived from OpenStreetMap
+derived/private,osm_roads.gpkg,--,Geopackage of edges (lines) and nodes (points) representing the road network.
+derived/private,osm_roads_time.gpkg,--,Geopackage of edges (lines) and nodes (points) representing the road network with corrected speed limits and calculated travel times

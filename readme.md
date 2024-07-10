@@ -1,51 +1,27 @@
-If you use this template for research, please [cite it](template_reference.bib):
-> Kedron, P., & Holler, J. (2023). Template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences. https://doi.org/10.17605/OSF.IO/W29MQ
-
-# Title of Study
+# Learn to build road network from OpenStreetMap
 
 ## Contributors
 
-- First Name Last Name\*, email address, @githubname, ORCID link, affiliated institution(s)
-- First Name Last Name, email address, @githubname, ORCID link, affiliated institution(s)
+- Joseph Holler\*, josephh@middlebury.edu, @josephholler, ORCID link, Middlebury College
 
 \* Corresponding author and creator
 
 ## Abstract
 
-Write a brief abstract about your research project.
-If the project is a reproduction or replication study, include the full citation with a statement
-This study is a *reproduction/replication* of:
-
-> citation to prior study
-
-A graphical abstract of the study could also be included as an image here.
+This is a python Jupyter notebook demonstrating how to use the OSMnx python package to query road data from OpenStreetMap, build a network, save as a geopackage, and correct and calculate speed limits and travel times.
 
 ## Study Metadata
 
-- `Key words`: Comma-separated list of keywords (tags) for searchability. Geographers often use one or two keywords each for: theory, geographic context, and methods.
-- `Subject`: select from the [BePress Taxonomy](http://digitalcommons.bepress.com/cgi/viewcontent.cgi?article=1008&context=reference)
-- `Date created`: date when project was started
-- `Date modified`: date of most recent revision
-- `Spatial Coverage`: Specify the geographic extent of your study. This may be a place name and link to a feature in a gazetteer like GeoNames or OpenStreetMap, or a well known text (WKT) representation of a bounding box.
-- `Spatial Resolution`: Specify the spatial resolution as a scale factor, description of the level of detail of each unit of observation (including administrative level of administrative areas), and/or or distance of a raster GRID size
-- `Spatial Reference System`: Specify the geographic or projected coordinate system for the study
+- `Key words`: Network analysis, OSMnx, NetworkX, Python, OpenStreetMap
+- `Subject`: Social and Behavioral Sciences: Geography: Geographic Information Sciences
+- `Date created`: 09-July-2024
+- `Date modified`: 10-July-2024
+- `Spatial Coverage`: New England
+- `Spatial Resolution`: Varies by region. Network edges are simplified to connect nodes at intersections or dead ends.
+- `Spatial Reference System`: EPSG:4326
 - `Temporal Coverage`: Specify the temporal extent of your study---i.e. the range of time represented by the data observations.
-- `Temporal Resolution`: Specify the temporal resolution of your study---i.e. the duration of time for which each observation represents or the revisit period for repeated observations
-- `Funding Name`: name of funding for the project
-- `Funding Title`: title of project grant
-- `Award info URI`: web address for award information
-- `Award number`: award number
+- `Temporal Resolution`: n/a - data acquired for one moment in time
 
-## Related to
-
-- `OSF Project`:
-- `Pre-analysis Registration`:
-- `Post-analysis Report Registration`:
-- `Preprint`:
-- `Conference Presentation`:
-- `Publication`:
-- `Prior Study`:
-- `...`:
 
 ## Metadata for access
 
@@ -66,13 +42,6 @@ This research compendium is structured with four main directories:
 The data, procedures, and results of this repository are outlined in three tables:
 - Data: [data/data_index.csv](data/data_index.csv)
 - Procedures: [procedure/procedure_index.csv](procedure/procedure_index.csv)
-- Results: [results/results_index.csv](results/results_index.csv)
-
-Important local **documents** include:
-- Pre-analysis plan: [docs/report/preanalysis.pdf](docs/report/preanalysis.pdf)
-- Study report: [docs/report/report.pdf](docs/report/report.pdf)
-- Manuscript: [docs/manuscript/manuscript.pdf](docs/manuscript/manuscript.pdf)
-- Presentation: [docs/presentation/presentation.pdf](docs/presentation/presentation.pdf)
 
 #### Compendium reference
 
